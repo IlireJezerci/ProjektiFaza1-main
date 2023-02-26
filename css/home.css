@@ -1,0 +1,421 @@
+* {
+    margin-left: 0px;
+margin-right: 0px;
+margin-top:0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: relative;
+  }
+  
+  header {
+    background-color: rgb(40,0,0);
+    padding: 0px 120px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 47px;
+    border-top: 2px solid #76c38f;
+  }
+  .logo span {
+    line-height: 0px;
+  }
+  
+  .big-text {
+    color: white;
+    font-size: 28px;
+    line-height: 70px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 70px;
+  }
+  nav ul li a {
+    color: white;
+    margin: 10px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  nav ul li a:hover {
+    background-color: #76c38f;
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+  
+  ul li.active a {
+    background-color: #76c38f;
+    border-radius: 13px;
+    padding: 10px 20px;
+    transition: 0s;
+  }
+  
+  .slideshow-container {
+    background-color: rgb(40,0,0);
+    position: relative;
+  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .mySlides {
+    /* max-width: 940px; */
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* display: none; */
+  }
+  .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-image > img {
+    width: 390px;
+    height: 390px;
+  }
+  .content h1{
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    font-size: 40px;
+  }
+  
+  .content  p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    width: 50%;
+    font-style: normal;
+    word-break: break-all;
+  }
+
+  .more-button {
+    margin-top: 10px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: #76c38f;
+    color: #fff;
+    height: 50px;
+    width: 160px;
+    border-radius: 13px;
+    font-size: 17px;
+  }
+  .more-button:hover{
+      border:1px solid #76c38f;
+      background-color: transparent;
+  }
+
+  .mySlides >div{
+    color: white;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: -22px;
+    margin-left: 180px;
+  
+    padding: 16px;
+    color: #76c38f;
+    font-weight: bold;
+    font-size: 32px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 180px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+/* cardsssssss */
+
+.cards-wrapper{
+    background-color: rgb(102,0,0);
+    display: flex;
+    justify-content: space-around;
+    text-align:  center;
+    align-items: center;
+    padding: 70px 120px;
+    cursor: pointer;
+    gap:23px;
+    
+}
+
+
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 23%;
+    height: 340px; 
+}
+/* .card-image{
+    width: 120px;
+    height: 120px;
+} */
+
+
+.card h1{
+    font-size: 28px;
+    font-weight: 520;
+    padding-top: 20px;
+} 
+
+
+.card:hover{
+    background-color:rgb(118,195,143);
+    color: white;
+}
+
+.card p{
+    /* color: rgb(169,169,169); */
+   padding-top: 20px;
+}
+body{
+  background-color: rgb(102,0,0);
+
+}
+
+h4::before {
+  content: "";
+  display: block;
+  width: 460px;
+  height: 2px;
+  background: rgb(50, 50, 50);
+  left: 200px;
+  top: 50%;
+  position: absolute;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  width: 460px;
+  height: 2px;
+  background: rgb(50, 50, 50);
+  right: 200px;
+  top: 50%;
+  position: absolute;
+}
+
+/* Stilizimi i titullit latest work*/
+#Latest-work{
+   text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+  color: white;
+  background-color: rgb(50, 50, 50);
+  width: 200px;
+  margin: auto;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  padding: 3px;  
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+/* Stilizimi i klases Latest-work (renditja e recetave te fundit ne nje grid 3x2, vendosja e tyre ne mes)*/
+.Latest-work{
+            padding-bottom: 35px;
+            padding-left: 120px;
+            padding-right: 70px;;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 70px;
+            align-items: center;}
+/*Caktimi i madhesise se imazheve te Latest Work sipas template-it*/
+.img{ width: 290px; 
+     height: 190px;
+     border: 3px solid white;
+     margin-bottom: 10px; 
+     position: relative;}
+
+/*Stilizimi i pseudoklases hover */
+.img:hover{border: 3px solid #7cc08d }
+.img:hover>.description {display:none;}
+
+/*Stilizimi i pershkrimit te recetave te fundit*/
+.description {  padding:5px;
+               background-color:rgb(50, 50, 50);
+               color: white; position: absolute; 
+               bottom: 0px; 
+               width: 280px; 
+               text-transform: uppercase;
+               text-align:center;}
+
+
+/* Pjesa e footer-it me 4 kolona*/
+footer .upper{
+  margin-top: 50px;
+}
+footer .upper{
+   width: device-width;
+   text-align: center;
+   display: flex;  
+   justify-content: center; 
+   padding-left: 120px; 
+   padding-right: 50px;
+   padding-bottom: 20px;
+   background-color: rgb(50, 50, 50);
+   color: white;
+   font-size: 18px;
+   column-gap: 45px;
+}
+
+h3{ 
+   font-weight: 100;}
+
+.column-1 a{
+
+    text-decoration: none;
+    color:rgb(150,150,150);
+    padding: 10px;
+}
+
+footer input, footer textarea, #check_availibilty{
+
+   border-radius: 8px;
+   background-color: rgb(40,40,40);
+   color: rgb(150,150,150);
+   padding: 8px 10px;
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-bottom-style: hidden;
+   outline:none;
+   font-size: 16px;
+   resize: none; 
+       
+}
+
+footer h3{
+   text-align: left;
+   color: rgb(200,200,200);
+}
+
+footer p{ text-align: left;}
+
+.column-1, .column-2, .column-3, .column-4{
+   width:300px;
+}
+
+footer .last{ border-top: 2px solid rgb(20,20,20);
+   background-color: rgb(35, 35, 35);
+      position: relative;
+      bottom: 0px;
+      right: 0px;
+      width: 100%;
+      height: 50px;
+      color: rgb(150,150,150);
+      }
+
+.column-2 a{
+   text-decoration: none;
+   color: #7cc08d;
+
+}
+
+.column-2 p{
+   border-bottom: 1px solid rgb(90,90,90);
+   margin-right: 20px;
+   }
+
+.column-3 p{
+   color: rgb(150,150,150);
+   margin-right: 20px ;           
+   font-size: 16px;}
+
+.column-3 p em, i{ 
+   color: #7cc08d;
+}
+b{
+   color: rgb(90,90,90);
+  }
+
+.grey{
+   color: rgb(150,150,150);
+  }
+
+.green{
+   color: #7cc08d;
+   text-align: left;
+  }
+
+a #green{
+   color: #7cc08d; 
+   text-align: left; 
+   text-decoration: none; 
+  }
+  
+#green{
+  color: #7cc08d;
+  text-align: right;
+}
+
+#date{font-size: 13px;}
+
+#admin{color: #7cc08d;}
+
+#check_availibilty{
+  position: relative;
+  left: 390px;}
+
+select, input{ 
+  background-color: rgb(180,180,180);   
+  border-top-color:lightgrey; 
+  border-left-color: lightgrey; 
+  border-radius: 8px; 
+  outline: none; 
+  outline-offset: 2px; }
+
+  .left, .right{ 
+      width:50%;
+      float:left;
+  }

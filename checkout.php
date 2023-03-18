@@ -32,7 +32,7 @@ foreach ($_SESSION["shportaBlerjes"] as $keys => $values) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Checkout | TechStore</title>
+    <title>Checkout </title>
     <link rel="shortcut icon" href="../../img/web/favicon.ico" />
     <link rel="stylesheet" href="../../css/adminDashboard.css">
     <link rel="stylesheet" href="../../css/mesazhetStyle.css">

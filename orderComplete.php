@@ -54,7 +54,7 @@ var_dump($porosia);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Order Complete | TechStore</title>
+  <title>Order Complete</title>
   <link rel="shortcut icon" href="../../img/web/favicon.ico" />
   <link rel="stylesheet" href="../../css/adminDashboard.css">
 </head>
